@@ -4,9 +4,9 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./timer.css');
+@import url('./snackbar.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +23,43 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: absolute;
+  margin-top: 10px; 
+  left: 10px; 
+}
+
+.link {
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1em;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
